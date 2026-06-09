@@ -26,7 +26,7 @@
 
 html {
   font-size: 15px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif, monospace;
 }
 
 body {
@@ -166,6 +166,22 @@ dd::after {
     justify-self: stretch;
     align-self: center;
   }
+}
+
+.main__card--cyan {
+  --card-color: var(--cyan);
+}
+
+.main__card--red {
+  --card-color: var(--red);
+}
+
+.main__card--orange {
+  --card-color: var(--orange);
+}
+
+.main__card--blue {
+  --card-color: var(--blue);
 }
 
 .main__card_title {
